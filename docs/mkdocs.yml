@@ -1,0 +1,13 @@
+site_name: Robs Simple Docs
+site_description: Lorem
+
+nav:
+  - "Welcome":
+    - "index.md"
+    - "add.md"
+
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [".."]
